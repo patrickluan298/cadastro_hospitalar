@@ -1,0 +1,173 @@
+/* Geral */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: helvetica, sans-serif;
+  color: #323232;
+  border: none;
+}
+
+body {
+ background-image: url('../img/medico-hospital-digital-esteto.jpg');
+ background-size: cover;
+ padding-top: 5vh;
+}
+
+textarea:focus, input:focus {
+  outline: none;
+}
+
+a, label{
+  font-size: .8rem;
+}
+
+a:hover {
+  color: blue;
+}
+
+/* container-login */
+
+#login-container {
+  background-color: #fff;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 30px;
+  margin-top: 10vh;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/*formulário */
+
+form {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+label, input {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+label{
+ font-weight: bold;
+ font-size: .8rem;
+}
+
+input {
+  border: 2px solid #323232;
+  padding: 10px;
+  font-size: .9rem;
+  margin-bottom: 40px;
+}
+
+input:focus label:focus{
+  outline: none;
+  border-bottom: 2px solid #085588;
+}
+
+#forgot-pass {
+  text-align: right;
+  display: block;
+}
+
+input[type="submit"]{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 30px;
+  color: #fff;
+  background-color: #085588;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover{
+  background-color: #1b223c;
+  transition: .5s;
+}
+
+#social-container, #social-container p{
+  margin-bottom: 20px;
+}
+
+img.ico {
+  margin-top: 15px;
+  width: 40px;
+  border-radius: 50%;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+
+/* Formulario Cadastro */ 
+
+#main-container {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+#main-container h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 1.6rem;
+}
+
+.full-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.full-box{
+  flex: 1 1 100%;
+  position: relative;
+}
+
+.half-box {
+  flex: 1 1 45%;
+  position: relative;
+}
+
+.spacing {
+  margin-right: 2.5%;
+}
+
+input:focus {
+  border-color: #085588;
+}
+
+#agreement {
+  margin-left: 5px;
+}
+
+#agreemente, agreemente-label {
+  display: inline-block;
+  width: auto;
+}
+
+/* validações */
+
+ .error-validation {
+  color: #ff1a1a;
+  position: absolute;
+  top: 57px;
+  font-size: .8rem;
+ }
+
+ .template {
+  display: none;
+ }
